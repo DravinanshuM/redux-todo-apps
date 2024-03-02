@@ -1,0 +1,42 @@
+.image {
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+ nav ul li a {
+    text-decoration: none;
+ }
+nav ul li a.active {
+    font-weight: 400;
+    color: rgb(150, 10, 112);
+    text-decoration: none;
+    border-bottom: 6px solid rgb(150, 10, 112);
+    padding-bottom: 7px;
+}
+
+.custom {
+    background-color: whitesmoke;
+}
+
+.navbar-container {
+    border-bottom: 2px solid cyan;
+    padding-bottom: 7px; 
+}
+
+.ToDoContent {
+    border-bottom: 5px solid cyan;
+    padding-bottom: 7px;
+}
+
+.class-list {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}

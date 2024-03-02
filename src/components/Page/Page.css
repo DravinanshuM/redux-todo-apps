@@ -1,0 +1,20 @@
+.home {
+    background-color: whitesmoke;
+
+}
+
+.font-icons {
+    color: red;
+}
+.font-icons-2 {
+    color: green;
+}
+.font-icons-2:hover, .font-icons:hover {
+    color:aqua;
+    cursor: pointer;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+  
